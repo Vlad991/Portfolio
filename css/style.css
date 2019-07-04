@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+
+html{
+}
+
+body{
+	margin: 0;
+}
+
+.container {
+
+}
+
+.container__header {}
+
+.header {
+	min-height: 750px;
+	background: url(../images/header/bg.jpg) no-repeat top center;
+	background-size: cover;
+	padding: 0.01%;
+}
+
+.container__fixed {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container__layout {
+    margin: 29px 0;
+}
+
+.layout {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+    margin: 2px 0;
+}
+
+.logo {}
+
+.logo__link {}
+
+.link {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Lato';
+}
+
+.link__logo-img {text-align: center;}
+
+.link__logo-title {
+    margin: 3px 0;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.link__logo-word {margin: 3px 0;font-size: 3.5px;text-align: center;}
+
+.logo__img {}
+
+.header__menu {}
+
+.menu {
+    margin: 0;
+    /* width: 460px; */
+}
+
+.menu__item {
+    list-style: none;
+    width: 96px;
+    text-align: center;
+    /* margin: 0 17px; */
+}
+
+.menu__item:last-child{
+	margin-right: 41px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+}
+
+.menu__link:hover {
+	text-transform: unset;
+}
+
+.menu__link:hover:after {
+	width: 40px;
+    height: 2px;
+    display: block;
+    content: "";
+    background: #4d4d4d;
+    margin: 3px auto;
+}
+	
+.header__luis-cover {}
+
+.luis-cover {}
+
+.luis-cover__name-card {}
+
+.name-card {}
+
+.name-card__card-heading {}
+
+.name-card__user-experience {}
+
+.name-card__contact-buttons {}
+
+.contact-buttons {}
+
+.contact-buttons__know-more {}
+
+.contact-btn {}
+
+.contact-buttons__hire-me {}
+
+.luis-cover__foto {}
+
+.foto {}
+
+
+
+
+
+
+
