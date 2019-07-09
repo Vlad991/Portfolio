@@ -26,7 +26,7 @@ body{
 }
 
 .container__layout {
-    margin: 29px 0;
+    margin: 29px 0 0;
 }
 
 .layout {
@@ -100,25 +100,59 @@ body{
     margin: 3px auto;
 }
 	
-.header__luis-cover {}
+.header__luis-cover {
+    margin: 8px 0 0;
+}
 
-.luis-cover {}
+.luis-cover {
+    width: 100%;
+}
 
-.luis-cover__name-card {}
+.luis-cover__name-card {margin: 152px 0 0;}
 
-.name-card {}
+.name-card {
+    font-family: "Myriad Pro";
+}
 
-.name-card__card-heading {}
+.name-card__heading {
+    height: 96px;
+    margin-left: -4px;
+    font-size: 90px;
+    color: #4d4d4d;
+}
 
-.name-card__user-experience {}
+.name-card__user-experience {
+    font-size: 22px;
+    color: #999;
+    margin: 0px 0;
+}
 
-.name-card__contact-buttons {}
+.name-card__contact-buttons {
+    margin: 25px 0 0;
+}
 
-.contact-buttons {}
+.contact-buttons {width: 342px;}
 
 .contact-buttons__know-more {}
 
-.contact-btn {}
+.contact-btn {
+    display: block;
+    text-decoration: none;
+    color: #4d4d4d;
+    width: 160px;
+    height: 50px;
+    border: #4d4d4d 1px solid;
+    text-align: center;
+    line-height: 53px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.contact-btn:hover {
+	border: none;
+	background: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
 
 .contact-buttons__hire-me {}
 
