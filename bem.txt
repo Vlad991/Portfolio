@@ -51,16 +51,8 @@ container
 				services__heading
 					heading
 				services__pictures
-					pirctures, layout, layout_33pc
-							two-pictures
-								pircture
-								pircture
-							two-pictures
-								pircture
-								pircture
-							two-pictures
-								pircture
-								pircture
+					pictures
+							... (html)
 	container__skills
 		skills
 			contaier__fixed

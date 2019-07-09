@@ -196,15 +196,25 @@ body{
     color: #7b7b7b;
     letter-spacing: 6px;
     line-height: 51px;
+    text-align: center;
+}
+
+.heading_know-more {
+	text-align: left;
 }
 
 .heading::before {
 	display: block;
+	text-align: center;
 	content: "";
 	width: 60px;
 	height: 4px;
 	background: #7a7a7a;
-	margin: 9px 4px;
+	margin: 0 auto 9px;
+}
+
+.heading_know-more::before {
+	margin: 0 4px 9px;
 }
 
 .know-info__content {
@@ -230,23 +240,49 @@ body{
 
 .container__services {}
 
-.services {}
+.services {
+    background: #f6f6f6;
+    height: 693px;
+    padding: 0.01%;
+}
 
-.services__heading {}
+.services__heading {
+	/* width: 300px; */
+	margin: 118px auto 0;
+}
 
 .services__pictures {}
 
-.pirctures {}
+.pictures {
+}
 
-.layout__blocks_6 {}
+.layout__blocks_6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-.pictures__picture {}
+.pictures__picture {margin: 18px 0 0;}
 
-.picture-item {}
+.picture-item {
+    width: 30%;
+    margin: 36px 19px;
+}
 
-.picture {}
+.pircture-item__picture {height: 86px;}
 
-.picture-title {}
+.picture {
+    display: block;
+    margin: 0 auto;
+}
+
+.picture-title {
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #4d4d4d;
+}
 
 
 
