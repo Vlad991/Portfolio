@@ -8,6 +8,16 @@ body{
 	margin: 0;
 }
 
+h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
 .container {}
 
 /*.................................................Header..........................................................................*/
@@ -284,7 +294,25 @@ body{
     color: #4d4d4d;
 }
 
+/*.................................................skills........................................................................*/
 
+.container__skills {}
+
+.skills {}
+
+.skills__heading {
+    margin: 116px 0 0;
+}
+
+.skills__diagram {
+    margin: 0 auto;
+}
+
+.diagram {
+    background: #fafafa;
+    width: 1031px;
+    height: 423px;
+}
 
 
 

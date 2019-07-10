@@ -61,5 +61,67 @@ container
 				skills__diagram
 					diagram
 	container__portfolio
+		portfolio
+			portfolio__heading
+				heading
+			portfolio__slider
+				slider
+					slider__slide
+						slide
+					slider__slide
+						slide
+					slider__slide
+						slide
+					slider__slide
+						slide
+					slider__slide
+						slide
+					slider__slide
+						slide
+			portfolio__load-button
+				load-button contact-btn
 	container__testimonials
+		testimonials
+			testimonials__heading
+				heading
+			testimonials__article
+				article
+					article__portrait-foto
+						portrait-foto
+					article__lettering
+						lettering
+							lettering__let-title
+								let-title
+							lettering__inscription
+								inscription
+							lettering__artcl-text
+								artcl-text
+					article__article-controls
+						article-controls layout
+							article-controls__item
+							article-controls__item
+							article-controls__item
+			testimonials__results
+				results
+					layout
+						results__result-item
+							result-item
+								result-item__result-picture
+								result-item__result-count
+								result-item__result-title
+						results__result-item
+							result-item
+								result-item__result-picture
+								result-item__result-count
+								result-item__result-title
+						results__result-item
+							result-item
+								result-item__result-picture
+								result-item__result-count
+								result-item__result-title
+						results__result-item
+							result-item
+								result-item__result-picture
+								result-item__result-count
+								result-item__result-title
 	container__hello
