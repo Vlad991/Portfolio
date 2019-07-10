@@ -62,6 +62,7 @@ container
 					diagram
 	container__portfolio
 		portfolio
+		 container__fixed
 			portfolio__heading
 				heading
 			portfolio__slider

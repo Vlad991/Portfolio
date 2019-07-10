@@ -269,7 +269,7 @@ h2 {
 .layout__blocks_6 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .pictures__picture {margin: 18px 0 0;}
@@ -294,7 +294,7 @@ h2 {
     color: #4d4d4d;
 }
 
-/*.................................................skills........................................................................*/
+/*.................................................Skills........................................................................*/
 
 .container__skills {}
 
@@ -305,17 +305,70 @@ h2 {
 }
 
 .skills__diagram {
-    margin: 0 auto;
+    margin: 36px auto 125px;
+    width: 1031px;
 }
 
 .diagram {
-    background: #fafafa;
+    background: firebrick;
     width: 1031px;
     height: 423px;
 }
 
+/*.................................................Portfolio........................................................................*/
 
+.container__portfolio {}
 
+.portfolio {
+    background: #f6f6f6;
+    padding: 0.01%;
+    min-height: 1096px;
+}
+
+.portfolio__heading {
+    margin: 126px 0 0;
+}
+
+.portfolio__slider {
+    margin: 9px 0 0;
+}
+
+.slider {
+}
+
+.slider__slide {
+    margin: 28px 0 0;
+}
+
+.slider__slide:first-child {
+    /* margin-left: -11px; */
+}
+
+.slide {
+    display: block;
+}
+
+.slide:hover {
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.slide:hover:before {
+    display: block;
+    content: url(../images/portfolio/pointer.jpg);
+    position: absolute;
+}
+
+.portfolio__load-button {
+    margin: 23px 2px;
+}
+
+.load-button {
+    margin: 0 504px;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 190px;
+}
 
 
 
