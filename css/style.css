@@ -386,8 +386,7 @@ li {
 
 /*................................................Testimonials......................................................................*/
 
-.container__testimonials {
-}
+.container__testimonials {margin: 0 0 122px;}
 
 .testimonials {}
 
@@ -468,21 +467,49 @@ li {
 
 .container__results {}
 
-.results {}
+.results {
+    height: 302px;
+    background: #f6f6f6;
+    padding: 0.01%;
+}
 
-.results__results-layout {}
+.results__results-layout {
+    margin: 52px auto 0;
+}
 
-.results-layout {}
+.results-layout {
+    padding: 0.01%;
+    width: 1059px;
+}
 
-.results-layout__result-item {}
+.results-layout__result-item:first-child {
+    margin: 0;
+}
 
-.result-item {}
+.results-layout__result-item:first-child .result-item .result-item__result-picture {
+    margin: 0 auto 22px;
+}
 
-.result-item__result-picture {}
+.results-layout__result-item {
+    margin: 21px 0;
+}
 
-.result-item__result-count {}
+.result-item {
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+}
 
-.result-item__result-title {}
+.result-item__result-picture {margin: 0 auto;width: 100px;height: 100px;}
+
+.result-item__result-count {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.result-item__result-title {
+    margin: 6px 0;
+    font-size: 22px;
+}
 
 
 
