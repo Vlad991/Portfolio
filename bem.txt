@@ -83,6 +83,7 @@ container
 				load-button contact-btn
 	container__testimonials
 		testimonials
+		  container__fixed
 			testimonials__heading
 				heading
 			testimonials__article
@@ -100,7 +101,7 @@ container
 					article__article-controls
 						article-controls layout
 							article-controls__item
-							article-controls__item article-controls__item_current
+							article-controls__item article-controls__item
 							article-controls__item
 			testimonials__results
 				results

@@ -18,6 +18,15 @@ h2 {
     font-weight: normal;
 }
 
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
 .container {}
 
 /*.................................................Header..........................................................................*/
@@ -377,45 +386,87 @@ h2 {
 
 /*................................................Testimonials......................................................................*/
 
-.container__testimonials {}
+.container__testimonials {
+}
 
 .testimonials {}
 
-.testimonials__heading {}
+.testimonials__heading {
+    margin: 126px 0 0;
+}
 
-.testimonials__article {}
+.testimonials__article {margin: 49px auto 49px;width: 955px;}
 
-.article {}
+.article {
+    width: 100%;
+    min-height: 349px;
+    border: #212121 1px solid;
+    box-sizing: border-box;
+    padding: 81px 58px 27px;
+}
 
-.article__portrait-foto {}
+.article__portrait-foto {
+    margin: 0 0 0 62px;
+}
 
 .portrait-foto {}
 
-.article__lettering {}
+.article__lettering {
+    margin: 0 0 0 31px;
+}
 
-.lettering {}
+.lettering {
+    font-family: 'Asap', sans-serif;
+}
 
-.lettering__let-title {}
+.lettering__let-title {
+}
 
-.let-title {}
+.let-title {
+    font-size: 30px;
+    color: #454545;
+}
 
 .lettering__inscription {}
 
-.inscription {}
+.inscription {
+    font-size: 12px;
+    color: #454545;
+}
 
-.lettering__artcl-text {}
+.lettering__artcl-text {
+    margin: 11px 0;
+}
 
-.artcl-text {}
+.artcl-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    line-height: 26.5px;
+    color: #919191;
+}
 
-.article__article-controls {}
+.article__article-controls {
+    margin: 41px auto 0;
+    width: 47px;
+}
 
 .article-controls {}
 
-.article-controls__item {}
+.article-controls__item {
+    width: 13px;
+    height: 13px;
+    border: #212121 1px solid;
+    box-sizing: border-box;
+}
 
-.article-controls__item_current {}
+.article-controls__item_current {
+    background: #212121;
+}
 
-.testimonials__results {}
+.testimonials__results {
+    margin: 122px auto;
+}
 
 .results {}
 
