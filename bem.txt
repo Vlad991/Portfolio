@@ -103,27 +103,29 @@ container
 							article-controls__item
 							article-controls__item article-controls__item
 							article-controls__item
-			testimonials__results
-				results
-					layout
-						results__result-item
+	container__results
+		results
+			container__fixed
+				results__results-layout
+					results-layout layout
+						results-layout__result-item
 							result-item
 								result-item__result-picture
 								result-item__result-count
 								result-item__result-title
-						results__result-item
+					results-layout__result-item
 							result-item
 								result-item__result-picture
 								result-item__result-count
 								result-item__result-title
-						results__result-item
+					results-layout__result-item
 							result-item
 								result-item__result-picture
 								result-item__result-count
 								result-item__result-title
-						results__result-item
+					results-layout__result-item
 							result-item
 								result-item__result-picture
 								result-item__result-count
-								result-item__result-title
+								result-item__result-title									
 	container__hello

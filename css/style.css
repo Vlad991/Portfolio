@@ -464,13 +464,17 @@ li {
     background: #212121;
 }
 
-.testimonials__results {
-    margin: 122px auto;
-}
+/*................................................Results......................................................................*/
+
+.container__results {}
 
 .results {}
 
-.results__result-item {}
+.results__results-layout {}
+
+.results-layout {}
+
+.results-layout__result-item {}
 
 .result-item {}
 
