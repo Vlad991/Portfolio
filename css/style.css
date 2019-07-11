@@ -154,7 +154,8 @@ h2 {
 	width: 342px;
 }
 
-.contact-buttons__know-more {}
+.contact-buttons__know-more {
+}
 
 .contact-btn {
     display: block;
@@ -167,6 +168,8 @@ h2 {
     line-height: 53px;
     box-sizing: border-box;
     letter-spacing: 1px;
+    transition: box-shadow 500ms ease-out;
+    /* transition: background 500ms ease-out; */
 }
 
 .contact-btn:hover {
@@ -346,6 +349,7 @@ h2 {
 
 .slide {
     display: block;
+    transition: box-shadow 500ms ease-out;
 }
 
 .slide:hover {
@@ -371,7 +375,59 @@ h2 {
 }
 
 
+/*................................................Testimonials......................................................................*/
 
+.container__testimonials {}
+
+.testimonials {}
+
+.testimonials__heading {}
+
+.testimonials__article {}
+
+.article {}
+
+.article__portrait-foto {}
+
+.portrait-foto {}
+
+.article__lettering {}
+
+.lettering {}
+
+.lettering__let-title {}
+
+.let-title {}
+
+.lettering__inscription {}
+
+.inscription {}
+
+.lettering__artcl-text {}
+
+.artcl-text {}
+
+.article__article-controls {}
+
+.article-controls {}
+
+.article-controls__item {}
+
+.article-controls__item_current {}
+
+.testimonials__results {}
+
+.results {}
+
+.results__result-item {}
+
+.result-item {}
+
+.result-item__result-picture {}
+
+.result-item__result-count {}
+
+.result-item__result-title {}
 
 
 

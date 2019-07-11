@@ -100,7 +100,7 @@ container
 					article__article-controls
 						article-controls layout
 							article-controls__item
-							article-controls__item
+							article-controls__item article-controls__item_current
 							article-controls__item
 			testimonials__results
 				results
