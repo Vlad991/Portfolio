@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic');
 
 html{
 }
@@ -52,6 +53,14 @@ li {
 .layout {
 	display: flex;
 	justify-content: space-between;
+}
+
+.layout__col_33pc {
+    width: 33%;
+}
+
+.layout__col_24pc {
+    width: 18%;
 }
 
 .header__logo {
@@ -479,7 +488,7 @@ li {
 
 .results-layout {
     padding: 0.01%;
-    width: 1059px;
+    width: 1099px;
 }
 
 .results-layout__result-item:first-child {
@@ -513,49 +522,120 @@ li {
 
 /*................................................Hello......................................................................*/
 
-.container__hello {}
+.container__hello {
+    margin: 152px 0;
+}
 
-.hello {}
+.hello {
+    background: url(../images/hello/bg.jpg) no-repeat top center;
+    min-height: 787px;
+    padding: 0.01%;
+}
 
-.hello__heading {}
+.hello__heading {
+    margin: 145px 0 0;
+}
 
-.heading_hello {}
+.heading_hello {
+    color: #f2f2f2;
+}
 
-.hello__hello-form {}
+.heading_hello::before {
+    background: #c1c1c1;
+}
+
+.hello__hello-form {
+    margin: 63px auto 0;
+    width: 770px;
+}
 
 .hello-form {}
 
 .hello-form__name {}
 
-.name {}
+.name {
+    width: 359px;
+    height: 55px;
+    padding-left: 11px;
+    border: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
 
 .hello-form__email {}
 
-.email {}
+.email {
+    width: 359px;
+    height: 55px;
+    padding-left: 10px;
+    border: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
 
-.hello-form__message {}
+.hello-form__message {
+    margin: 29px auto 0;
+}
 
-.message {}
+.message {
+    height: 185px;
+    width: 97%;
+    resize: none;
+    padding: 22px 11px 0;
+    border: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
 
-.hello-form__send {}
+.hello-form__send {
+    width: 123px;
+    margin: 26px 339px;
+}
 
-.send {}
+.send {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4d4d4d;
+    padding: 0 27px 0 32px;
+}
 
 .send__send-word {}
 
-.send__send-arrow {}
+.send__send-arrow {
+    margin: 4px 0 0;
+}
 
-.hello__hello-footer {}
+.hello__hello-footer {
+    margin: 58px 0 0;
+}
 
-.hello-footer {}
+.hello-footer {
+    border-top: #fff 1px solid;
+    padding: 26px 0;
+}
 
-.hello-footer__sprite {}
+.hello-footer__sprite {
+}
 
 .sprite {}
 
 .hello-footer__all-right {}
 
-.all-right {}
+.all-right {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.7px;
+    line-height: 27px;
+}
 
 
 
