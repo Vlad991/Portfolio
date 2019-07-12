@@ -129,3 +129,44 @@ container
 								result-item__result-count
 								result-item__result-title									
 	container__hello
+		hello
+			container__fixed
+				hello__heading
+					heading heading_hello
+				hello__hello-form
+					hello-form
+						layout
+							hello-form__name
+								name
+							hello-form__email
+								email
+						hello-form__message
+							message
+						hello-form__send
+							send
+								send__send-word
+									send-word
+								send__send-arrow
+									send-arrow
+				hello__hello-footer
+					hello-footer
+						layout
+							hello-footer__sprite
+								sprite
+									????
+							hello-footer__all-right
+								all-right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
