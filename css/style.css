@@ -802,9 +802,9 @@ li {
     }
 
     .know-more__know-img {
-    width: 290%;
+    width: 343%;
     height: 100%;
-    margin: 40px 0;
+    margin: 83px 0;
     }
 
     .know-img {
@@ -877,6 +877,160 @@ li {
 
     .sprite {
         width: 85%;
+    }
+}
+
+@media  screen and (max-width: 1024px) {
+    
+    .header {
+        min-height: 471px;
+    }
+
+    .name-card__heading {
+        font-size: 51px;
+        height: 63px;
+    }
+
+    .name-card__user-experience {
+        font-size: 15px;
+    }
+
+    .contact-buttons {
+        width: 290px;
+    }
+
+    .contact-btn {
+        width: 119px;
+    }
+
+    .container__know-more {
+        margin: 22px 0 14px 0;
+    }
+
+    .contact-btn_dwnld-my-cv {
+        width: 176px;
+    }
+
+    .heading {
+        font-size: 30px;
+        letter-spacing: 2px;
+        line-height: 37px;
+    }
+
+    .know-info__content {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .know-more__know-img {
+        margin: 32px 0;
+    }
+
+    .services {
+        min-height: 580px;
+    }
+
+    .services__heading {
+        margin: 39px auto 0;
+    }
+    
+    .services__pictures {
+        margin: 36px 0;
+    }
+
+    .picture-item {
+        margin: 28px 0;
+    }
+
+    .skills__heading {
+        margin: 38px 0 0;
+    }
+
+    .skills__diagram {
+        margin: 36px auto;
+    }
+
+    .diagram {
+        height: 288px;
+    }
+
+    .persentages__item {
+        margin: 0 0 23px 0;
+    }
+
+    .slide {
+        width: 282px;
+    }
+
+    .slide__img {
+    width: 100%;
+    }
+
+    .portfolio {
+        min-height: 1064px;
+    }
+
+    .portfolio__load-button {
+        width: 119px;
+        margin: 33px auto;
+    }
+
+    .load-button {
+        line-height: 46px;
+    }
+
+    .container__testimonials {
+        margin: 0;
+    }
+
+    .testimonials__heading {
+        margin: 40px 0 0;
+    }
+
+    .result-item__result-title {
+        font-size: 18px;
+    }
+
+    .result-item__result-count {
+        font-size: 18px;
+    }
+
+    .container__hello {
+        margin: 55px 0 0;
+    }
+
+    .hello {
+        min-height: 630px;
+    }
+
+    .hello__heading {
+        margin: 40px 0 0;
+    }
+
+    .hello__hello-form {width: 636px;}
+
+    .name {
+        width: 300px;
+    }
+
+    .email {
+        width: 300px;
+    }
+
+    .message {
+        width: 96.5%;
+    }
+
+    .hello-form__send {
+        margin: 23px auto;
+    }
+
+    .hello__hello-footer {
+        margin: 0;
+    }
+
+    .sprite {
+        width: 93%;
     }
 }
 
