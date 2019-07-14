@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="container">
-		<div class="container__header">
+		<div class="container__header" id="home">
 			<div class="header">
 				<div class="container__fixed">
 					<div class="container__layout">
@@ -28,11 +28,11 @@
 							</div>
 							<div class="header__menu">
 								<ul class="menu layout">
-									<li class="menu__item"><a href="" class="menu__link">Home</a></li>
-									<li class="menu__item"><a href="" class="menu__link">About</a></li>
-									<li class="menu__item"><a href="" class="menu__link">Service</a></li>
-									<li class="menu__item"><a href="" class="menu__link">Portfolio</a></li>
-									<li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+									<li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+									<li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+									<li class="menu__item"><a href="#service" class="menu__link">Service</a></li>
+									<li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+									<li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
 								</ul>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 		</div>
 
 		<div class="container__know-more">
-			<div class="know-more">
+			<div class="know-more" id="about">
 				<div class="container__fixed">
 					<div class="layout">
 						<div class="know-more__know-info">
@@ -91,7 +91,7 @@
 		</div>
 
 		<div class="container__services">
-			<div class="services">
+			<div class="services" id="service">
 				<div class="container__fixed">
 					<div class="services__heading">
 						<h1 class="heading">SERVICES</h1>
@@ -149,14 +149,54 @@
 						<h2 class="heading">MY SKILLS</h2>
 					</div>
 					<div class="skills__diagram">
-						<div class="diagram"></div>
+						<div class="diagram">
+							<div class="layout">
+								<div class="diagram__persentages">
+									<ul class="persentages">
+										<li class="persentages__item">
+											<div class="pers-item">100%</div>
+										</li>
+										<li class="persentages__item">
+											<div class="pers-item">90%</div>
+										</li>
+										<li class="persentages__item">
+											<div class="pers-item">80%</div>
+										</li>
+										<li class="persentages__item">
+											<div class="pers-item">70%</div>
+										</li>
+										<li class="persentages__item">
+											<div class="pers-item">60%</div>
+										</li>
+										<li class="persentages__item">
+											<div class="pers-item">50%</div>
+										</li>
+									</ul>
+								</div>
+								<div class="diagram__chart">
+									<div class="chart">
+										<div class="chart__chart-img">
+											<img src="images/skills/chart.jpg" alt="" class="chart-img">
+										</div>
+										<div class="chart__chart-points">
+											<ul class="chart-points layout ">
+												<li class="chart-points__point"><img src="images/skills/Xd.jpg" alt="" class="ch-point"></li>
+												<li class="chart-points__point"><img src="images/skills/Ae.jpg" alt="" class="ch-point"></li>
+												<li class="chart-points__point"><img src="images/skills/Ps.jpg" alt="" class="ch-point"></li>
+												<li class="chart-points__point"><img src="images/skills/Ai.jpg" alt="" class="ch-point"></li>
+											</ul>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container__portfolio">
-			<div class="portfolio">
+			<div class="portfolio" id="portfolio">
 				<div class="container__fixed">
 					<div class="portfolio__heading">
 						<h2 class="heading">PORTFOLIO</h2>
@@ -267,7 +307,7 @@
 		</div>
 
 		<div class="container__hello">
-			<div class="hello">
+			<div class="hello" id="contact">
 				<div class="container__fixed">
 					<div class="hello__heading">
 						<div class="heading heading_hello">SAY HELLO!</div>

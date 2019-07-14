@@ -20,7 +20,7 @@ h2 {
 }
 
 ul {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -339,15 +339,49 @@ li {
 }
 
 .skills__diagram {
-    margin: 36px auto 125px;
-    width: 1031px;
+    margin: 39px auto 125px;
+    width: 1092px;
 }
 
 .diagram {
-    background: gray;
-    width: 1031px;
+    margin: 0 auto;
+    width: 994px;
     height: 423px;
+    padding: 0.01%;
 }
+
+.diagram__persentages {margin-top: 6px;width: 48px;}
+
+.persentages {width: 100%;font-family: 'Asap', sans-serif;font-size: 15px;color: #4d4d4d;/* text-align: center; */}
+
+.persentages__item {margin: 0 0 45px 0;width: 35px;}
+
+.pers-item {width: 100%;}
+
+.diagram__chart {
+    margin: 15px auto;
+    width: 952px;
+}
+
+.chart {width: 100%;}
+
+.chart__chart-img {
+}
+
+.chart-img {box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);}
+
+.chart__chart-points {margin: 11px 85px;width: 777px;}
+
+.chart-points {width: 88%;}
+
+.chart-points__point {
+}
+
+.ch-point {
+}
+
+
+
 
 /*.................................................Portfolio........................................................................*/
 
@@ -609,6 +643,7 @@ li {
 }
 
 .send {
+    background: #fff;
     width: 100%;
     height: 50px;
     border: none;
