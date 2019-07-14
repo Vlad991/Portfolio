@@ -207,6 +207,7 @@ li {
 .know-more {}
 
 .know-more__know-img {
+    margin: 0 -12px;
     height: 462px;
     width: 592px;
 }
@@ -228,6 +229,7 @@ li {
 
 .know-info {
     width: 568px;
+    padding: 0.01%;
 }
 
 .know-info__heading {
@@ -287,7 +289,7 @@ li {
 
 .services {
     background: #f6f6f6;
-    height: 693px;
+    min-height: 693px;
     padding: 0.01%;
 }
 
@@ -310,7 +312,7 @@ li {
 
 .picture-item {
     width: 30%;
-    margin: 36px 19px;
+    margin: 40px 19px;
 }
 
 .pircture-item__picture {height: 86px;}
@@ -368,7 +370,7 @@ li {
 .chart__chart-img {
 }
 
-.chart-img {box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);}
+.chart-img {box-shadow: 0 5px 26px rgba(0, 0, 0, 0.3);}
 
 .chart__chart-points {margin: 11px 85px;width: 777px;}
 
@@ -450,7 +452,7 @@ li {
     margin: 126px 0 0;
 }
 
-.testimonials__article {margin: 49px auto 49px;width: 955px;}
+.testimonials__article {margin: 49px auto 49px;width: 81.6%;}
 
 .article {
     width: 100%;
@@ -534,8 +536,9 @@ li {
 }
 
 .results-layout {
+    margin: 0 auto;
     padding: 0.01%;
-    width: 1099px;
+    width: 93.9%;
 }
 
 .results-layout__result-item:first-child {
@@ -762,9 +765,120 @@ li {
     line-height: 27px;
 }
 
+/*...................................Adaptivity.................................................*/
 
+@media screen and (max-width: 1280px) {
 
+    .container__fixed {
+        width: 81.3%;
+    }
 
+    .header {
+        min-height: 600px;
+    }
+
+    .luis-cover__name-card {
+        margin-top: 100px;
+    }
+
+    .name-card__heading {
+        font-size: 65px;
+    }
+
+    .luis-cover__luis-foto {
+        width: 46%;
+    }
+
+    .luis-foto {
+        width: 100%;
+    }
+
+    .know-info {
+        width: 94.7%;
+    }
+
+    .know-info__heading {
+        margin: 5% 0;
+    }
+
+    .know-more__know-img {
+    width: 290%;
+    height: 100%;
+    margin: 40px 0;
+    }
+
+    .know-img {
+        width: 96%;
+    }
+
+    .services__pictures {
+        margin: 50px 0;
+    }
+
+    .pictures {
+    width: 74%;
+    margin: 0 auto;
+    }
+
+    .skills__diagram {
+        width: 99%;
+    }
+
+    .diagram {
+        width: 100%;
+    }
+
+    .diagram__chart {
+    width: 98%;
+    }
+
+    .chart__chart-img {
+        width: 100%;
+    }
+
+    .chart-img {
+        width: 100%;
+    }
+
+    .chart__chart-points {
+        width: 83%;
+        margin: 11px 63px;
+    }
+
+    .persentages__item {
+        margin: 0 0 32px 0;
+    }
+
+    .portfolio__heading {
+        margin: 50px 0 0;
+    }
+
+    .portfolio__load-button {
+        width: 190px;
+        margin: 23px auto 50px;
+    }
+
+    .load-button {
+    margin: 0;
+    width: 100%;
+    }
+
+    .testimonials__article {
+    }
+
+    .artcl-text {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .article__portrait-foto {
+        margin-left: 20px;
+    }
+
+    .sprite {
+        width: 85%;
+    }
+}
 
 
 
